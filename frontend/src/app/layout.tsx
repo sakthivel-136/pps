@@ -10,8 +10,11 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Paruvaththe Payir Sei - Transforming Human Values",
+  title: "PARUVATHTHE PAYIR SEI",
   description: "At PPS, we believe true education goes beyond textbooks.",
+  icons: {
+    icon: "/logo.webp",
+  },
 };
 
 export default function RootLayout({
