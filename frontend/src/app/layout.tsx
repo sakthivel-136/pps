@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "PARUVATHTHE PAYIR SEI",
   description: "At PPS, we believe true education goes beyond textbooks.",
   icons: {
-    icon: "/logo.webp",
+    icon: "/browserlogo.png",
   },
 };
 
