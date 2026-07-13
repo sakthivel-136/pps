@@ -53,7 +53,7 @@ export default function Programs() {
               <div className="flex gap-3"><span className="text-yellow-400 font-bold">✓</span> Course Excellence Certificate</div>
               <div className="flex gap-3"><span className="text-yellow-400 font-bold">✓</span> College projects guidance</div>
             </div>
-            <a href="https://forms.gle/VZychpRnW5n3s6aN6" target="_blank" rel="noopener noreferrer" className="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg hover:shadow-yellow-400/50 hover:-translate-y-1">
+            <a href="https://forms.gle/VvuZpfwdRPZyM6rv8" target="_blank" rel="noopener noreferrer" className="inline-block bg-yellow-400 text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg hover:shadow-yellow-400/50 hover:-translate-y-1">
               Register Now
             </a>
           </div>
@@ -132,7 +132,7 @@ export default function Programs() {
               <li className="flex items-center gap-3">✨ Free Workbooks & One-on-one discussion</li>
             </ul>
             <div className="flex items-center gap-6">
-              <a href="https://forms.gle/VvuZpfwdRPZyM6rv8" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-lg hover:-translate-y-1">
+              <a href="https://forms.gle/VZychpRnW5n3s6aN6" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-indigo-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-lg hover:-translate-y-1">
                 Register Now
               </a>
               <span className="text-2xl font-black bg-pink-500 px-4 py-2 rounded-xl transform -rotate-2 text-white">@ RS.99/- ONLY</span>
