@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-white pt-32 pb-16 md:pt-52 md:pb-28 min-h-[75vh] flex flex-col justify-center overflow-hidden">
+      <section className="relative bg-white pt-32 pb-8 md:pt-52 md:pb-12 min-h-[70vh] flex flex-col justify-center overflow-hidden">
         <div className="container mx-auto px-4 text-center">
           <FadeIn direction="up">
             <h1 
@@ -25,7 +25,7 @@ export default function Home() {
               At PPS, we believe true education goes beyond textbooks.
             </p>
           </FadeIn>
-          <FadeIn direction="up" delay={0.4} className="mb-12">
+          <FadeIn direction="up" delay={0.4} className="mb-4">
             <a href="#what-we-do" className="inline-block px-10 py-3 rounded-full font-bold text-sm md:text-base tracking-wide transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300" style={{ backgroundColor: '#025a0b', color: 'white' }}>
               HELP US SHAPE YOUR CHILD’S FUTURE
             </a>
