@@ -3,7 +3,7 @@
 @theme inline {
   --color-pps-green: #025a0b;
   --color-pps-light-green: #048a11;
-  --font-sans: var(--font-sora), sans-serif;
+  --font-sans: var(--font-montserrat), sans-serif;
 }
 
 body {
