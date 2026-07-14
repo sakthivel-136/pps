@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-white pt-24 pb-16 md:pt-40 md:pb-28 min-h-[65vh] flex flex-col justify-center overflow-hidden">
+      <section className="relative bg-white pt-32 pb-16 md:pt-52 md:pb-28 min-h-[75vh] flex flex-col justify-center overflow-hidden">
         <div className="container mx-auto px-4 text-center">
           <FadeIn direction="up">
             <h1 
