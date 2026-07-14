@@ -21,7 +21,7 @@ export default function Home() {
             </h1>
           </FadeIn>
           <FadeIn direction="up" delay={0.2}>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-2 mb-14 md:mb-20 max-w-3xl mx-auto px-2">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-2 mb-20 md:mb-32 max-w-3xl mx-auto px-2">
               At PPS, we believe true education goes beyond textbooks.
             </p>
           </FadeIn>
