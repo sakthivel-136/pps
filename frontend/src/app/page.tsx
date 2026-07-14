@@ -21,12 +21,12 @@ export default function Home() {
             </h1>
           </FadeIn>
           <FadeIn direction="up" delay={0.2}>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-2 mb-20 md:mb-32 max-w-3xl mx-auto px-2">
+            <p className="text-lg sm:text-xl md:text-[22px] text-green-950/80 font-medium mt-1 mb-8 md:mb-12 max-w-3xl mx-auto px-2">
               At PPS, we believe true education goes beyond textbooks.
             </p>
           </FadeIn>
           <FadeIn direction="up" delay={0.4} className="mb-12">
-            <a href="#what-we-do" className="inline-block px-8 py-3 rounded-full font-bold text-base md:text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300" style={{ backgroundColor: '#025a0b', color: 'white' }}>
+            <a href="#what-we-do" className="inline-block px-10 py-3 rounded-full font-bold text-sm md:text-base tracking-wide transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300" style={{ backgroundColor: '#025a0b', color: 'white' }}>
               HELP US SHAPE YOUR CHILD’S FUTURE
             </a>
           </FadeIn>

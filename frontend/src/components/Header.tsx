@@ -44,7 +44,7 @@ export default function Header() {
         dangerouslySetInnerHTML={{
           __html: `
 .hdr{position:sticky;top:0;z-index:9999;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.hdr-inner{max-width:100%;margin:0 auto;padding:12px 40px;display:flex;align-items:center;justify-content:space-between}
+.hdr-inner{max-width:100%;margin:0 auto;padding:12px 6%;display:flex;align-items:center;justify-content:space-between}
 .hdr-logo img{height:56px;width:auto}
 
 /* Home page logo float animation — only the logo moves */
@@ -55,7 +55,7 @@ export default function Header() {
 .hdr-logo-float img{animation:logoFloat 3s ease-in-out infinite}
 
 /* Desktop nav — hidden by default, shown ≥1024px */
-.hdr-dnav{display:none;align-items:center;gap:20px;font-size:13px;font-weight:700}
+.hdr-dnav{display:none;align-items:center;gap:32px;font-size:13px;font-weight:600;letter-spacing:0.5px}
 @media(min-width:1024px){.hdr-dnav{display:flex}}
 
 .hdr-dnav a{color:#374151;text-decoration:none;padding:4px 0;border-bottom:2px solid transparent;text-transform:uppercase}
@@ -63,7 +63,7 @@ export default function Header() {
 
 /* More button */
 .hdr-more-wrap{position:relative}
-.hdr-more-btn{display:inline-flex;align-items:center;gap:4px;font:inherit;font-size:13px;font-weight:700;text-transform:uppercase;color:#374151;background:none;border:none;border-bottom:2px solid transparent;padding:4px 0;cursor:pointer}
+.hdr-more-btn{display:inline-flex;align-items:center;gap:4px;font:inherit;font-size:13px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;color:#374151;background:none;border:none;border-bottom:2px solid transparent;padding:4px 0;cursor:pointer}
 .hdr-more-btn:hover,.hdr-more-btn.on{color:#025a0b;border-bottom-color:#025a0b}
 .hdr-more-btn svg{width:14px;height:14px;transition:transform .2s}
 
