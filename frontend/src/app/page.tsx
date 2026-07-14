@@ -10,10 +10,10 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <FadeIn direction="up">
             <h1 
-              className="font-extrabold mb-4 md:mb-6 tracking-tight leading-tight md:leading-tight break-words" 
+              className="font-extrabold mb-6 md:mb-8 tracking-tight leading-tight md:leading-tight break-words" 
               style={{ 
                 color: '#025a0b', 
-                fontSize: 'clamp(2.25rem, 8vw, 4.5rem)',
+                fontSize: 'clamp(2rem, 5vw, 3.5rem)',
                 willChange: 'transform, opacity'
               }}
             >
@@ -21,12 +21,12 @@ export default function Home() {
             </h1>
           </FadeIn>
           <FadeIn direction="up" delay={0.2}>
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 md:mb-10 max-w-3xl mx-auto px-2">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 mt-2 mb-10 md:mb-12 max-w-3xl mx-auto px-2">
               At PPS, we believe true education goes beyond textbooks.
             </p>
           </FadeIn>
           <FadeIn direction="up" delay={0.4} className="mb-12">
-            <a href="#what-we-do" className="inline-block px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-2xl hover:-translate-y-1 duration-300" style={{ backgroundColor: '#025a0b', color: 'white' }}>
+            <a href="#what-we-do" className="inline-block px-8 py-3 rounded-full font-bold text-base md:text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300" style={{ backgroundColor: '#025a0b', color: 'white' }}>
               HELP US SHAPE YOUR CHILD’S FUTURE
             </a>
           </FadeIn>
