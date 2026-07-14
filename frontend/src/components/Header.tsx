@@ -44,7 +44,7 @@ export default function Header() {
         dangerouslySetInnerHTML={{
           __html: `
 .hdr{position:sticky;top:0;z-index:9999;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.hdr-inner{max-width:1280px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+.hdr-inner{max-width:100%;margin:0 auto;padding:12px 40px;display:flex;align-items:center;justify-content:space-between}
 .hdr-logo img{height:56px;width:auto}
 
 /* Home page logo float animation — only the logo moves */
